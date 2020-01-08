@@ -80,6 +80,28 @@ if __name__ == '__main__':
 	print(f'sorted list: {l}')
 
 
+	print('\n### Test insertion sort ###')
+	l = [9, 3, 7, 8, 5, 4, 6]
+	print(f'list: {l}')
+	insertion_sort(l)
+	print(f'sorted list: {l}')
+
+	l = [9]
+	print(f'list: {l}')
+	insertion_sort(l)
+	print(f'sorted list: {l}')
+
+	l = [9, 3]
+	print(f'list: {l}')
+	insertion_sort(l)
+	print(f'sorted list: {l}')
+
+	l = []
+	print(f'list: {l}')
+	insertion_sort(l)
+	print(f'sorted list: {l}')
+
+
 
 
 
