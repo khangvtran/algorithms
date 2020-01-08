@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
 	key = 6
 	print(f'search for {key}: ', end = '')
-	print(binary_search(l, 0, len(l)-1, key))
+	print(binary_search(l, 0,  len(l)-1, key))
 
 
 	print('\n### Test Recursion Iteration ###')

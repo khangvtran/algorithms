@@ -11,7 +11,7 @@ def bubble_sort(l):
 		Run time complexity: 
 		Worst case: O(n^2) sorted but reversed
 		Best Case: O(n) already sorted
-		Average: O(n^2)
+		Average:  O(n^2)
 	* args:
 		l <list> list of values of the same type
 	* return:
