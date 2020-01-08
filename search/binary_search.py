@@ -44,8 +44,6 @@ def binary_search_iteration(l, key):
 		Average: O(log(n))
 	* args:
 		l <list>: sorted list of values
-		left <int>: left index
-		right <int>: right index
 		key <data type of list element>: the searched value
 	* return:
 		mid <int>: index of key if found. -1 otherwise

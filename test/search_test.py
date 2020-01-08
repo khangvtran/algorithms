@@ -1,4 +1,6 @@
-from binary_search import *
+import sys
+sys.path.insert(0, '..')
+from search import *
 
 if __name__ == '__main__':
 	print('### Test Recursion ###')
