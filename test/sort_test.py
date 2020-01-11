@@ -102,6 +102,80 @@ if __name__ == '__main__':
 	print(f'sorted list: {l}')
 
 
+	print('\n### Test merge ###')
+	arr = []
+	left = []
+	right = []
+	print(f'arr = {arr}, left = {left}, right = {right}')
+	merge(arr, left, right)
+	print(f'after merge: {arr}')
+
+	arr = [9, 3]
+	left = [3]
+	right = [9]
+	print(f'arr = {arr}, left = {left}, right = {right}')
+	merge(arr, left, right)
+	print(f'after merge: {arr}')
+
+	arr = [3, 9, 7]
+	left = [3, 9]
+	right = [7]
+	print(f'arr = {arr}, left = {left}, right = {right}')
+	merge(arr, left, right)
+	print(f'after merge: {arr}')
+
+	arr = [3, 4, 5, 6, 7]
+	left = [3, 5, 7]
+	right = [4, 6]
+	print(f'arr = {arr}, left = {left}, right = {right}')
+	merge(arr, left, right)
+	print(f'after merge: {arr}')
+
+
+	print('\n### Test merge_sort ###')
+	l = [9, 3, 7, 8, 5, 4, 6]
+	print(f'list: {l}')
+	merge_sort(l)
+	print(f'sorted list: {l}')
+
+	l = [9]
+	print(f'list: {l}')
+	merge_sort(l)
+	print(f'sorted list: {l}')
+
+	l = [9, 3]
+	print(f'list: {l}')
+	merge_sort(l)
+	print(f'sorted list: {l}')
+
+	l = []
+	print(f'list: {l}')
+	merge_sort(l)
+	print(f'sorted list: {l}')
+
+
+	print('\n### Test partition ###')
+	l = [9, 3, 7, 8, 5, 4, 6]
+	print(f'list: {l}')
+	i =partition(l, 0, len(l) - 1)
+	print(f'sorted list: {l}')
+	print(f'current i: {i}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
