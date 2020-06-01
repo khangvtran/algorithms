@@ -156,11 +156,50 @@ if __name__ == '__main__':
 
 	print('\n### Test partition ###')
 	l = [9, 3, 7, 8, 5, 4, 6]
-	print(f'list: {l}')
+	print(f'* list: {l}')
 	i =partition(l, 0, len(l) - 1)
 	print(f'sorted list: {l}')
 	print(f'current i: {i}')
 
+	l = [9, 3]
+	print(f'* list: {l}')
+	i =partition(l, 0, len(l) - 1)
+	print(f'sorted list: {l}')
+	print(f'current i: {i}')
+
+	l = [9]
+	print(f'* list: {l}')
+	i =partition(l, 0, len(l) - 1)
+	print(f'sorted list: {l}')
+	print(f'current i: {i}')
+
+	l = []
+	print(f'* list: {l}')
+	i =partition(l, 0, len(l) - 1)
+	print(f'sorted list: {l}')
+	print(f'current i: {i}')
+
+
+	print('\n### Test quick sort ###')
+	l = [9, 3, 7, 8, 5, 4, 6]
+	print(f'list: {l}')
+	quick_sort(l, 0, len(l)-1)
+	print(f'sorted list: {l}')
+
+	l = [9, 3]
+	print(f'list: {l}')
+	quick_sort(l, 0, len(l)-1)
+	print(f'sorted list: {l}')
+
+	l = [9]
+	print(f'list: {l}')
+	quick_sort(l, 0, len(l)-1)
+	print(f'sorted list: {l}')
+
+	l = []
+	print(f'list: {l}')
+	quick_sort(l, 0, len(l)-1)
+	print(f'sorted list: {l}')
 
 
 
